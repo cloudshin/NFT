@@ -5,6 +5,7 @@ const fs = require("fs");
 const ccpPath = path.resolve(__dirname, "..", "ccp", "connection-org1.json");
 const ccp = JSON.parse(fs.readFileSync(ccpPath, "utf8"));
 const { Wallets, Gateway  } = require("fabric-network");
+// connection.json 유저에 맞게 선택기능 추가
 
 
 async function cc_call(id, fn_name, args) {

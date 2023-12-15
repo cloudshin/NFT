@@ -55,6 +55,8 @@ func (s *SmartContract)Feed(ctx contractapi.TransactionContextInterface, fungusI
 		return fmt.Errorf("failed to get Multiply : %v", err)
 	}
 
+	//사용한 먹이 삭제 delFeed("먹이id") - feed 체인코드
+
 	return nil
 }
 

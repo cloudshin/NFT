@@ -12,9 +12,12 @@ router.post('/', async(req, res, next) => {
     const id = userData.username    
     const fungusid = req.body.fungusid
     const to_id =  req.body.to_id
+    //from_id " Carolina,C=US"까지 읽어올 수 있도록 수정
     const from_id = req.body.from_id
-    var args = [from_id, to_id, fungusid];
-
+    const from_id2 = from_id + " Carolina,C=US"
+    var args = [from_id2, to_id, fungusid];
+    console.log(`to_id: ${to_id}`);
+    console.log(`from_id: ${from_id2}`);
     var result = await cc.cc_call(id, "TransferFrom", args)
     console.log(result)
     res.redirect('/');

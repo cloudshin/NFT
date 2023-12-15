@@ -138,3 +138,5 @@ func (S *SmartContract) GetFeed(ctx contractapi.TransactionContextInterface, fee
 
 	return &feed, nil
 }
+
+// todo  delFeed(id)
