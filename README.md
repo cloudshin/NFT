@@ -1,6 +1,8 @@
 CryptoFungi Project
 
 # 크립토풍기 프로젝트 실행 방법
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcloudshin%2FNFT.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcloudshin%2FNFT?ref=badge_shield)
+
 
 ## 1. BlockChain Network 실행
 
@@ -32,3 +34,7 @@ CryptoFungi Project
 ## 업데이트 강의자료와 code는 ftp://202.30.3.201 와 본 github로 공유 예정입니다.
 ## 하이퍼레저 패브릭을 공부하시면서 도움이 필요하신 경우 gcloud@ajou.ac.kr로 이메일 보내시면 도와드리겠습니다.
 ## 그럼 좋은 하루 되세요
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcloudshin%2FNFT.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcloudshin%2FNFT?ref=badge_large)
